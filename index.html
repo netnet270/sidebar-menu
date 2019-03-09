@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,34 +14,98 @@
 <body>
 
     <div id="wrapper">
-        <div class="row">
-            <div class="side-bar col-2">
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Layout</a></li>
-                    <li><a href="#">Graphs</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Flot Charts</a></li>
-                            <li><a href="#">Flot Charts</a></li>
-                            <li><a href="#">Flot Charts</a></li>
-                            <li><a href="#">Flot Charts</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Mailbox</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Basic Mailbox</a></li>
-                            <li><a href="#">Basic Mailbox</a></li>
-                            <li><a href="#">Basic Mailbox</a></li>
-                            <li><a href="#">Basic Mailbox</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Form</a></li>
-                </ul>
-            </div>
+        <div class="clear-fix">
+            <aside class="side-bar fl-left">
+                <nav class="navigation">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-fw fa-home"></i>
+                                <span class="nav-label">Trang chủ</span>
+                                <span class="item-icon-collapse">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-fw fa-wrench"></i>
+                                <span class="nav-label">Về chúng tôi</span>
+                                <span class="item-icon-collapse">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-fw fa-user"></i>
+                                <span class="nav-label">Sản phẩm</span>
+                                <span class="item-icon-collapse ">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" class="nav-link">Thời trang nam</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Thời trang nữ</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Thời trang trẻ em</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-fw fa-user"></i>
+                                <span class="nav-label">Xu hướng</span>
+                                <span class="item-icon-collapse ">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">Thời trang mùa hè</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thời trang mùa thu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thời trang mùa đông</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-fw fa-user"></i>
+                                <span class="nav-label">Thanh toán</span>
+                                <span class="item-icon-collapse ">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-fw fa-user"></i>
+                                <span class="nav-label">Thanh toán</span>
+                                <span class="item-icon-collapse ">
+                                    <i class="far fa-plus-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
 
-            <div class="main-content col-10">
+            <div class="main-content fl-right">
                 <div class="header">
-                    <button type="button" class="">
+                    <button type="button" class="openbtn">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
@@ -60,8 +123,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+
     <script src="js/style.js"></script>
 </body>
 

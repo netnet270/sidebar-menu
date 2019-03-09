@@ -40,3 +40,68 @@ a, a:hover, a:active, a:focus, button:focus, .btn:focus, .form-control:focus {
     box-shadow: none !important;
 }
 
+.fl-left {
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    background: #3a3633;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    padding-top: 30px;
+}
+
+.navigation .closebtn {
+    position: absolute;
+    top: 0;
+    right: -4px;
+    font-size: 25px;
+    color: #818181;
+    transition: all 0.3s;
+}
+
+.navigation .closebtn:hover {
+    color: #f1f1f1;
+}
+
+.navigation li a{
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    color: #c0bbb7;
+    display: block;
+    font-weight: 400;
+}
+
+.navigation ul li a:hover {
+    color: #fff;
+}
+
+.item-icon-collapse  {
+    font-size: 0.7rem;
+    padding: 0.2rem 0;
+    float: right;
+}
+
+ul.sub-menu {
+    margin: 0;
+    /* display: none; */
+    background: rgba(69,69,69,.6);
+    padding: 7px 0;
+}
+
+ul.sub-menu a {
+    padding-left: 50px;
+}
+
+.open {
+    display: block;
+    background: red;
+}
