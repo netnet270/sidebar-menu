@@ -92,7 +92,6 @@ a, a:hover, a:active, a:focus, button:focus, .btn:focus, .form-control:focus {
 
 ul.sub-menu {
     margin: 0;
-    /* display: none; */
     background: rgba(69,69,69,.6);
     padding: 7px 0;
 }
@@ -101,7 +100,10 @@ ul.sub-menu a {
     padding-left: 50px;
 }
 
-.open {
+.d-none {
+    display: none;
+}
+
+.d-block {
     display: block;
-    background: red;
 }
