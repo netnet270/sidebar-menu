@@ -51,7 +51,7 @@ a, a:hover, a:active, a:focus, button:focus, .btn:focus, .form-control:focus {
     top: 0;
     left: 0;
     height: 100%;
-    width: 20%;
+    width: 250px;
     z-index: 1;
     background: #3a3633;
     overflow-x: hidden;
@@ -100,10 +100,32 @@ ul.sub-menu a {
     padding-left: 50px;
 }
 
+.position-sub-menu {
+    position: absolute;
+}
+
 .d-none {
     display: none;
+    /* visibility: hidden; */
 }
 
 .d-block {
     display: block;
 }
+
+.main-content {
+    transition: .5s;
+    margin-left: 250px;
+}
+
+.bg-opacity {
+    background: rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 425px) {
+    .main-content {
+        margin-left: 0px;
+    }
+
+}
+
