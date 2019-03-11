@@ -6,21 +6,20 @@ $(document).ready(function () {
         var itemIconCollapse = $(this).find('span:last');
 
         $('.sub-menu').each(function () {
-            $('.sub-menu').addClass('d-none');
+            $('.sub-menu').slideUp(300);
             itemIconCollapse.html('<i class="far fa-plus-square"></i>');
         });
 
-        if (classNames.includes('d-none')) {
-            subMenu.removeClass("d-none");
-            // subMenu.addClass("d-block");	
-            subMenu.slideDown(800);
+        if((subMenu).is(":hidden")){
+            subMenu.slideDown(300);
             itemIconCollapse.html('<i class="far fa-minus-square"></i>');
-        } else {
-            subMenu.removeClass("d-block");
-            // subMenu.addClass("d-none");
-            subMenu.slideUp(800);
+        }
+
+        else{
+            subMenu.slideUp(300);
             itemIconCollapse.html('<i class="far fa-plus-square"></i>');
         }
+
     });
 
     var openBtn = $(".openbtn");
