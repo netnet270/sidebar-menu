@@ -132,16 +132,6 @@ ul.sub-menu a {
     background: rgba(0,0,0,0.4);
 }
 
-/* .tranform-open{
-    transform: translateX(203px);
-    transition:all 2s;
-}
-
-.tranform-close{
-    transform: translateX(-205px);
-    transition: all 2s;
-} */
-
 .vsb-hidden{
     visibility: hidden;
 }  
