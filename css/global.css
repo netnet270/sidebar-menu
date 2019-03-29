@@ -1,0 +1,29 @@
+.row::after {
+  content: "";
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-6 {width: 50%;}
+
+.img-fulid {
+  max-width: 100%;
+  height: auto;
+}
+
+a, a:hover, a:active, a:focus, button:focus, .btn:focus, .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.fl-left {
+  float: left;
+}
+.fl-right{
+  float: right;
+}
+
